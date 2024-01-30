@@ -15,21 +15,21 @@ O Primeiro passo foi criar um recurso de Machine Learning. Para isso, cliquei em
 
 ## Passo 2: Configuração recurso de Machine Learning
 
-Na próxima foi etapa preenchi algumas configurações, como: grupo de recursos e detalhes sobre a área de trabalho. 
+Nessa etapa preenchi alguns campos sobre machine learning workspace. No input "Resource group" preenchi com o nome "LABAI-900", no "Name" escolhi o nome "laboratorioai900", a "Region" usei "East US" e os demais inputs e configurações mantive o padrão criado pela plataforma. 
 
 Em seguida, criei o recurso e cliquei no boão "ir para recurso". 
 
 ## Passo 3
 
-Depois das configurações da area de trabalho de machine learning,  cliquei no botão "iniciar o estúdio"
+Depois das configurações da area machine learning workspace,  cliquei no botão "iniciar o estúdio". 
 
 Logo após, no menu lateral, cliquei na opção "ML automatizado" e em seguida cliquei em "Novo trabalho de ML automatizado".
 
-Em "Configurações básicas", preenchi os campos "Nome do trabalho", "Novo nome do experimento" e coloquei uma descrição. 
+Em "Configurações básicas", preenchi os campos "Nome do trabalho" com o nome "mslearn-bike-automl", em "Novo nome do experimento"  usei "mslearn-bike-rental" e também preenchi o campo "Dscrição. 
 
-No passo "Tipo de tarefa e dados", selecionei o tipo de tarefa como Regressão e em seguida, em "Selecionar dados".  Nesse momento tive que preencher os campos "Nome", "Descrição" e "Tipo". No próximo passo "Fonte de dados", escolhi "De arquivos da Web". 
+Em "Tipo de tarefa e dados", selecionei o tipo de tarefa como "Regressão" e, em seguida, nas configurações "Selecionar dados", tive que preencher os campos "Nome" com o valor "alugueldebicicletas" e também preenchi o input de "Descrição" e "Tipo" como "Tabular". No próximo passo, em "Fonte de dados", escolhi "De arquivos da Web". 
 
-Em seguida, informei a URL https://aka.ms/bike-rentals de dados para treinamento do modelo. 
+Em seguida, informei a URL "https://aka.ms/bike-rentals" de dados para treinamento do modelo. 
 
 No passo "Configurações", mantive as configurações padrão, com excessão do campo "Cabeçalhos de coluna" que preenchi com a opção "Somente o primeiro arquivo tem cabeçalhos".
 
