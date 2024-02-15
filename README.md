@@ -57,9 +57,9 @@ Na página da tarefa, acessei a aba métricas.
 
 ## Passo 5:
 
-Na página do modelo, cliquei na aba "Pontos de extremidade". Também é possível acessar pelo menu lateral em "Pontos de extremidade". Cliquei no ponto correspondente ao modelo gerado. Em seguida, acessei a aba "Testar".
+Na página do "modelo", cliquei na aba "Pontos de extremidade". Cliquei no modelo gerado. Logo após, acessei a aba "Testar".
 
-Para o teste, utilizei o json abaixo:
+Para o testar, usei o json abaixo:
 
 <code>
 {
