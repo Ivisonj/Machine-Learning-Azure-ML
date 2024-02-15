@@ -9,17 +9,17 @@ Links úteis:
 
 [Fonte dos dados](https://aka.ms/bike-rentals)
 
-## Passo 1: Criando recurso do Azure Machine Learning
+## Passo 1: 
 
 O Primeiro passo foi criar um recurso de Machine Learning. Para isso, cliquei em "Criar recurso" e depois pesquisei por Azure Machine Learning.
 
-## Passo 2: Configuração recurso de Machine Learning
+## Passo 2: 
 
 Nessa etapa preenchi alguns campos sobre machine learning workspace. No input "Resource group" preenchi com o nome "LABAI-900", no "Name" escolhi o nome "laboratorioai900", a "Region" usei "East US" e os demais inputs e configurações mantive o padrão criado pela plataforma. 
 
 Em seguida, criei o recurso e cliquei no boão "ir para recurso". 
 
-## Passo 3
+## Passo 3:
 
 Depois das configurações da area machine learning workspace,  cliquei no botão "iniciar o estúdio". 
 
@@ -37,23 +37,25 @@ Logo após, os dados foram carregados eu eu cliquei em "criar".
 
 Em "Configurações de tarefas", escolhi o conjunto de dados importado. Após, em "Coluna de destino" escolhi a coluna rentals.
 
-Nos campos de "Limite", preenchi com os valores abaixo e marquei "Habilitar encerramento antecipado".
+Nas configurações adicionais, mantive as configurações padrões em "Métrica primária", mas em modelos permitidos selecionei "RandomForest" e "LightGBM".
 
-Em "Validar e testar", em "Tipo de validação" escolhi "Divisão de validação de treinamento".
+Nos campos de "Limite", preenchi com os campos "Máximo de avaliações", "Máximo de avaliações simultâneas" e "Máximo de nós" com o valor "3". Em "Limite de pontuação da métrica", usei "0,085". Nas opções "Tempo limite do experimento" e "Tempo limite de iteração", escolhi o vlaor "15", além de marcar a opção "Habilitar encerramento antecipado"
 
-Ao avançar, em Computação, mantive os valores mostrados na imagem abaixo.
+Em "Validar e testar", na opção "Tipo de validação" escolhi "Divisão de validação de treinamento".
 
-Após avançar e examinar as configurações do trabalho, cliquei em "Enviar trabalho de treinamento".
+Avancei, em Computação, mantive os valores.
 
-Após finalizar o trabalho de treinamento, o modelo fica acessível na opção de menu "Modelo".
+Ao avançar e examinar as configurações do trabalho, cliquei em "Enviar trabalho de treinamento".
 
-## Passo 4: Métricas do modelo
+Após finalizar o treinamento, o modelo ficou disponível na opção de menu "Modelo".
+
+## Passo 4: 
 
 Para acessar as métricas do modelo treinado, na página do modelo, acesso o link informado em "Criado por trabalho". Também é possível acessar o trabalho informado na opção do menu "Tarefas (jobs)".
 
 Na página da tarefa, acessei a aba métricas.
 
-## Passo 5: Teste do modelo
+## Passo 5:
 
 Na página do modelo, cliquei na aba "Pontos de extremidade". Também é possível acessar pelo menu lateral em "Pontos de extremidade". Cliquei no ponto correspondente ao modelo gerado. Em seguida, acessei a aba "Testar".
 
